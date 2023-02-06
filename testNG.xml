@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Daily Smoke Test Suite" >
+  <test name="Regression">
+    <classes>
+      <class name="com.testscripts.LoginToKapivaSite"/>
+      <class name="com.testscripts.VerifyKapivaFieldsHeaders"/>
+     <!--  <class name="com.testscripts.VerifyKapivaFieldsHeaders"/> -->
+    </classes>
+  </test>
+</suite>
